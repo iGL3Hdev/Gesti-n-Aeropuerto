@@ -25,4 +25,12 @@ public class pasajero {
     public void setPasaporte(String pasaporte){
         this.pasaporte = pasaporte;
     }
+
+    public String getNacionalidad(){
+        return nacionalidad;
+    }
+
+    public void setNacionalidad(String nacionalidad){
+        this.nacionalidad = nacionalidad;
+    }
 }
