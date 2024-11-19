@@ -18,7 +18,7 @@ public class Vuelo {
         this.listaPasajeros = new pasajero[numMaxPasajeros];
     }
 
-    public void instarPasajero(pasajero pasajero){
+    public void insertarPasajero(pasajero pasajero){
         listaPasajeros[numActualPasajeros] = pasajero;
         numActualPasajeros++;
     }
@@ -91,7 +91,7 @@ public class Vuelo {
     }
 
 
-    
+
     public pasajero[] getListaPasajeros() {
         return listaPasajeros;
     }
